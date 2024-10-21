@@ -1,0 +1,37 @@
+les commandes PowerShell qui correspondent aux commandes Linux (shell bash) suivantes :
+
+Voici les équivalents PowerShell des commandes Linux (bash) que vous avez demandées :
+
+1.  **`cp` **(Linux)** - copie de fichiers
+    
+    -   **PowerShell** : `Copy-Item`
+        -   Exemple : `Copy-Item source.txt destination.txt`
+2.  **`rm` **(Linux)** - suppression de fichiers
+    
+    -   **PowerShell** : `Remove-Item`
+        -   Exemple : `Remove-Item file.txt`
+3.  **`cd` **(Linux)** - changement de répertoire
+    
+    -   **PowerShell** : `Set-Location`
+        -   Exemple : `Set-Location C:\Users\Documents`
+        -   Alias disponible : `cd`
+4.  **`mkdir` **(Linux)** - création de répertoires
+    
+    -   **PowerShell** : `New-Item -ItemType Directory`
+        -   Exemple : `New-Item -ItemType Directory -Path "NewFolder"`
+5.  **`man` **(Linux)** - manuel de commande
+    
+    -   **PowerShell** : `Get-Help`
+        -   Exemple : `Get-Help Copy-Item`
+6.  **`history` **(Linux)** - historique des commandes
+    
+    -   **PowerShell** : `Get-History`
+        -   Exemple : `Get-History`
+7.  **`alias` **(Linux)** - création d'alias de commandes
+    
+    -   **PowerShell** : `Set-Alias`
+        -   Exemple : `Set-Alias ll Get-ChildItem`
+8.  **`cat` **(Linux)** - affichage du contenu d'un fichier
+    
+    -   **PowerShell** : `Get-Content`
+        -   Exemple : `Get-Content file.txt`
